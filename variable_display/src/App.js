@@ -1,4 +1,6 @@
 import './App.css';
+import JobBoard from './JobBoard';
+import './JobBoard.js';
 
 function App() {
   return (
@@ -37,6 +39,8 @@ function VariableDisplay() {
 
       <h2>objectVar properties:</h2>
       <pre>{JSON.stringify(objectVar, null, 2)}</pre>
+      <br /><br />
+      <JobBoard />
     </div>
   );
 }
