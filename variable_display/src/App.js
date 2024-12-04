@@ -1,11 +1,16 @@
 import './App.css';
 import JobBoard from './JobBoard';
 import './JobBoard.js';
+import StyledButton from './StyledButton.js';
 
 function App() {
   return (
     <div className="App">
       <VariableDisplay />
+      <br />-----<br />
+      <JobBoard />
+      <br />-----<br />
+      <StyledButton />
     </div>
   );
 }
@@ -39,8 +44,6 @@ function VariableDisplay() {
 
       <h2>objectVar properties:</h2>
       <pre>{JSON.stringify(objectVar, null, 2)}</pre>
-      <br /><br />
-      <JobBoard />
     </div>
   );
 }
