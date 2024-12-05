@@ -1,7 +1,7 @@
 import './App.css';
 import JobBoard from './JobBoard';
-import './JobBoard.js';
 import StyledButton from './StyledButton.js';
+import JobCounter from './JobCounter.js';
 
 function App() {
   return (
@@ -11,6 +11,8 @@ function App() {
       <JobBoard />
       <br />-----<br />
       <StyledButton />
+      <br />-----<br />
+      <JobCounter />
     </div>
   );
 }
